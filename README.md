@@ -1,5 +1,5 @@
 # recursive-last-modified
-Walks through specified directory or directories and returns last change date of all tree. Tecnically it is the newest modified or created date of all files in specified dir
+Walks through specified directory or directories and returns last change date of all tree. Technically it is the newest modified or created date of all files in specified dir
 
 [Npm module](https://www.npmjs.com/package/recursive-last-modified)
 
@@ -14,6 +14,7 @@ Last modified date in this readme means newest date from:
 * node-glob syntax support  https://github.com/isaacs/node-glob
 * excludes
 * optional ability to skip missing paths. False by default? 
+* ability to get list of files modified since specified date
 
 ## More details
 
