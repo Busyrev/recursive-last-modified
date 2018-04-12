@@ -2,10 +2,32 @@
 Walks through specified directory or directories and returns last change date of all tree. Tecnically it is the newest modified or created date of all files in specified dir
 [Npm module](https://www.npmjs.com/package/recursive-last-modified)
 
+last modified date in this readme means newest date from 
+
+* [stats.birthtimeMs](https://nodejs.org/api/fs.html#fs_stats_birthtimems)
+* [stats.ctimeMs](https://nodejs.org/api/fs.html#fs_stats_ctimems)
+* [stats.mtimeMs](https://nodejs.org/api/fs.html#fs_stats_mtimems)
+
+
 ## Future plans
 * node-glob syntax support  https://github.com/isaacs/node-glob
 * excludes
 * optional ability to skip missing paths. False by default? 
+
+## More details
+
+You can specify not only directory, but file. And array of files and directories mixed. 
+
+## Usage
+
+```js
+let rlm = require('recursive-last-modified');
+console.log(rlm('.')) // prints last modified date of current folder and all its content
+
+console.log(rlm(['dir1', 'dir2'])) // prints newest last modified date of dir1, dir2 and all content in them
+
+console.log(rlm('path/to/some/file.txt')) // prints last modified date of path/to/some/file.txt
+```
 
 ## Thanks
 
