@@ -1,8 +1,9 @@
 # recursive-last-modified
 Walks through specified directory or directories and returns last change date of all tree. Tecnically it is the newest modified or created date of all files in specified dir
+
 [Npm module](https://www.npmjs.com/package/recursive-last-modified)
 
-last modified date in this readme means newest date from 
+Last modified date in this readme means newest date from:
 
 * [stats.birthtimeMs](https://nodejs.org/api/fs.html#fs_stats_birthtimems)
 * [stats.ctimeMs](https://nodejs.org/api/fs.html#fs_stats_ctimems)
