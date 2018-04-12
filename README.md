@@ -12,4 +12,4 @@ Walks through specified directory or directories and returns last change date of
 Development of the project was sponsored by [Crazy Panda](https://crazypanda.ru/)
 
 ## License
-Licensed in terms of MIT license (see https://github.com/vovkasm/go-sjson/blob/master/LICENSE.md file).
+Licensed in terms of MIT license (see https://github.com/Busyrev/recursive-last-modified/blob/master/LICENSE file).
