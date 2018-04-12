@@ -3,7 +3,7 @@
  * Tecnically it is the newest modified or created date of all files and dirs in specified dir.
  * @param {string|Array.<string>} title - The title of the book.
  */
-export function recursiveLastModified(dir) {
+module.exports = function recursiveLastModified(dir) {
     if (Array.isArray(dir)) {
         return Math.max.apply(null, dir.map(d => {
             checkArg(d);
