@@ -1,0 +1,25 @@
+{
+  "name": "recursive-last-modified",
+  "version": "1.0.0",
+  "description": "Walks through specified directory or directories and returns last change date of all tree. Tecnically it is the newest modified or created date of all files in specified dir",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Busyrev/recursive-last-modified.git"
+  },
+  "keywords": [
+    "last-modified",
+    "recursive",
+    "folder",
+    "directory"
+  ],
+  "author": "Mikhail Busyrev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Busyrev/recursive-last-modified/issues"
+  },
+  "homepage": "https://github.com/Busyrev/recursive-last-modified#readme"
+}
