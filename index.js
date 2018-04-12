@@ -1,6 +1,6 @@
 /**
  * Walks through specified directory or directories and returns last change date of all tree.
- * Tecnically it is the newest modified or created date of all files in specified dir.
+ * Tecnically it is the newest modified or created date of all files and dirs in specified dir.
  * @param {string|Array.<string>} title - The title of the book.
  */
 export function recursiveLastModified(dir) {
