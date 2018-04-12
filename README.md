@@ -22,6 +22,7 @@ You can specify not only directory, but file. And array of files and directories
 
 ```js
 let rlm = require('recursive-last-modified');
+
 console.log(rlm('.')) // prints last modified date of current folder and all its content
 
 console.log(rlm(['dir1', 'dir2'])) // prints newest last modified date of dir1, dir2 and all content in them

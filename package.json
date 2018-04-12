@@ -1,6 +1,6 @@
 {
   "name": "recursive-last-modified",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Walks through specified directory or directories and returns last change date of all tree. Tecnically it is the newest modified or created date of all files in specified dir",
   "main": "index.js",
   "scripts": {
