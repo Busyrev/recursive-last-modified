@@ -11,7 +11,7 @@ module.exports = function recursiveLastModified(dir) {
         }
         ));
     } else {
-        return getLastModifiedRecursive(p);
+        return getLastModifiedRecursive(dir);
     }
 
     function checkArg(dir) {
