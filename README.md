@@ -3,7 +3,7 @@ Walks through specified directory or directories and returns last change date of
 
 [Npm module](https://www.npmjs.com/package/recursive-last-modified)
 
-Last modified date in this readme means newest date from:
+Last modified date in this readme and code means newest date for each directory and file recursively from:
 
 * [stats.birthtimeMs](https://nodejs.org/api/fs.html#fs_stats_birthtimems)
 * [stats.ctimeMs](https://nodejs.org/api/fs.html#fs_stats_ctimems)
