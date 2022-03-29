@@ -10,7 +10,6 @@ module.exports = function recursiveLastModified(dir) {
     
     if (Array.isArray(dir)) {
         return Math.max.apply(null, dir.map(d => {
-            console.log(d);
             checkArg(d);
             return getLastModifiedRecursive(d);
         }
